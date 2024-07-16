@@ -55,7 +55,7 @@ BFS는 그래프의 모든 정점을 탐색할 때 **현재 정점의 모든 인
 
 ### 2-3. Python 예제 코드
 
-```
+```python
 def bfs(graph, start):
     visited = set()
     queue = [start]
